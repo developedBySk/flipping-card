@@ -64,8 +64,11 @@ h1{
     background: linear-gradient(to top left, #42da06, #181bcc);
     transform-style: preserve-3d;
 }
-@media (min-width:738px){
-    .containerS{
+@media (max-width:800px){
+    .container{
         width: 100%;
+    }
+    .card{
+        
     }
 }
