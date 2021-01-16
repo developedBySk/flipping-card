@@ -31,8 +31,7 @@ h1{
     scale: 0.98;
     transition: all 2s ease;
     transform-style: preserve-3d;
-    box-shadow: 1px 3px 3px rgba(0,0,0,0.2)
-
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
 }
 .rotated{
     transform: rotateY(-180deg);
