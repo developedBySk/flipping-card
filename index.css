@@ -37,7 +37,7 @@ h1{
     transform: translateX(250px);
 }
 .rotate{
-    transform: rotateY(30deg);
+    transform: rotateX(180deg);
 }
 .rotated{
     transform: rotateY(-180deg);
