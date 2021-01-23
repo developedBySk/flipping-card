@@ -33,8 +33,11 @@ h1{
     transform-style: preserve-3d;
     box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
 }
-.rotated{
-    transform: rotateY(-180deg);
+.move{
+    transform: translateX(250px);
+}
+.rotate{
+    transform: rotateY(30deg);
 }
 .card-depth {
     transform: translateZ(50px) scale(1.1);
