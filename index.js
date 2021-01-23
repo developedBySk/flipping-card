@@ -1,10 +1,14 @@
 const container = document.querySelector('.card');
 
-container.addEventListener('click',rotate)
+container.addEventListener('click',move)
+container.addEventListener('click',() => {
+    container.classList.toggle('rotated');
+})
+container.addEventListener('transitionend',() => {
+    container.classList.toggle('rotate');
+})
 
-function rotate(event){
+function move(){
     container.classList.toggle('move');
-    event.addEventListener('transitionend',() =>{
-        container.classList.toggle('rotate');
-    })
+    
 }

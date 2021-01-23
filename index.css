@@ -39,6 +39,9 @@ h1{
 .rotate{
     transform: rotateY(30deg);
 }
+.rotated{
+    transform: rotateY(-180deg);
+}
 .card-depth {
     transform: translateZ(50px) scale(1.1);
     perspective: inherit;
